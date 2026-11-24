@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Grand Aurelia | Luxury Hotel</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    
+    <header>
+        <nav class="navbar">
+
+            <a href="#" class="logo">GRAND AURELIA</a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#dining">Dining</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-button">BOOK NOW</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+                ☰
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="hero-subtitle">WELCOME TO GRAND AURELIA</p>
+
+            <h1>Experience Luxury.<br>Discover Serenity.</h1>
+
+            <p>
+                Where timeless elegance meets exceptional hospitality.
+                Experience a stay beyond expectations.
+            </p>
+
+            <a href="#rooms" class="primary-button">
+                EXPLORE OUR ROOMS
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Booking Strip -->
+    <section class="booking-strip">
+
+        <div>
+            <span>CHECK IN</span>
+            <input type="date" id="checkin">
+        </div>
+
+        <div>
+            <span>CHECK OUT</span>
+            <input type="date" id="checkout">
+        </div>
+
+        <div>
+            <span>GUESTS</span>
+            <select id="guests">
+                <option value="1">1 Guest</option>
+                <option value="2" selected>2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+            </select>
+        </div>
+
+        <a href="#contact" class="booking-button">
+            ENQUIRE NOW
+        </a>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+
+        <div class="about-image">
+            <img src="images/hero.jpg" alt="Grand Aurelia luxury resort">
+        </div>
+
+        <div class="about-content">
+
+            <p class="section-label">DISCOVER OUR STORY</p>
+
+            <h2>A World of Elegance and Comfort</h2>
+
+            <p>
+                Grand Aurelia is a destination designed for those
+                who appreciate the finer things in life. From
+                thoughtfully designed spaces to personalized
+                hospitality, every detail creates an unforgettable
+                experience.
+            </p>
+
+            <a href="#contact" class="text-link">DISCOVER MORE →</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Rooms Section -->
+    <section class="rooms section-padding" id="rooms">
+
+        <div class="section-heading">
+            <p class="section-label">STAY WITH US</p>
+            <h2>Our Rooms & Suites</h2>
+            <p>Beautiful spaces designed around your comfort.</p>
+        </div>
+
+        <div class="room-container">
+
+            <div class="room-card">
+                <img src="images/room.jpg" alt="Deluxe room">
+
+                <div class="room-info">
+                    <h3>Deluxe Room</h3>
+                    <p>Elegant interiors and modern comfort.</p>
+                    <a href="#contact">ENQUIRE NOW →</a>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <img src="images/hero.jpg" alt="Luxury suite">
+
+                <div class="room-info">
+                    <h3>Luxury Suite</h3>
+                    <p>Spacious living with premium amenities.</p>
+                    <a href="#contact">ENQUIRE NOW →</a>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <img src="images/pool.jpg" alt="Premium room">
+
+                <div class="room-info">
+                    <h3>Premium Suite</h3>
+                    <p>An elevated experience of luxury.</p>
+                    <a href="#contact">ENQUIRE NOW →</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Dining Section -->
+    <section class="dining section-padding" id="dining">
+
+        <div class="dining-image">
+            <img src="images/dining.jpg" alt="Luxury hotel restaurant">
+        </div>
+
+        <div class="dining-content">
+            <p class="section-label">A TASTE OF EXCELLENCE</p>
+
+            <h2>Exceptional Dining Experiences</h2>
+
+            <p>
+                Discover thoughtfully curated menus, exquisite
+                flavours and memorable dining moments in an
+                elegant atmosphere.
+            </p>
+
+            <a href="#contact" class="text-link">EXPLORE DINING →</a>
+        </div>
+
+    </section>
+
+
+    <!-- Amenities Section -->
+    <section class="amenities section-padding">
+
+        <div class="section-heading">
+            <p class="section-label">THE AURELIA EXPERIENCE</p>
+            <h2>Designed Around You</h2>
+        </div>
+
+        <div class="amenities-container">
+
+            <div class="amenity">
+                <span>✧</span>
+                <h3>Luxury Spa</h3>
+                <p>Relax, refresh and rejuvenate.</p>
+            </div>
+
+            <div class="amenity">
+                <span>◇</span>
+                <h3>Swimming Pool</h3>
+                <p>Enjoy moments of pure serenity.</p>
+            </div>
+
+            <div class="amenity">
+                <span>✦</span>
+                <h3>Fine Dining</h3>
+                <p>Exceptional culinary experiences.</p>
+            </div>
+
+            <div class="amenity">
+                <span>⌘</span>
+                <h3>Fitness Centre</h3>
+                <p>Stay active during your stay.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding">
+
+        <div class="section-heading">
+            <p class="section-label">A GLIMPSE OF AURELIA</p>
+            <h2>Our Gallery</h2>
+        </div>
+
+        <div class="gallery-container">
+            <img src="images/hero.jpg" alt="Hotel exterior">
+            <img src="images/room.jpg" alt="Hotel bedroom">
+            <img src="images/dining.jpg" alt="Hotel restaurant">
+            <img src="images/spa.jpg" alt="Hotel spa">
+            <img src="images/pool.jpg" alt="Hotel pool">
+        </div>
+
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding">
+
+        <p class="section-label">GUEST EXPERIENCES</p>
+
+        <h2>Memories That Last Forever</h2>
+
+        <blockquote>
+            "An absolutely beautiful experience. The hospitality,
+            ambience and attention to detail made our stay
+            unforgettable."
+        </blockquote>
+
+        <p class="guest-name">— A Happy Guest</p>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+
+        <div class="contact-content">
+
+            <p class="section-label">GET IN TOUCH</p>
+
+            <h2>Begin Your Journey With Us</h2>
+
+            <p>Have a question or planning your next stay? Contact us.</p>
+
+            <p>Email: reservations@grandaurelia.com</p>
+            <p>Phone: +91 98765 43210</p>
+
+        </div>
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+
+            <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">SEND ENQUIRY</button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>GRAND AURELIA</h2>
+
+        <p>Luxury. Comfort. Timeless Hospitality.</p>
+
+        <p>© 2026 Grand Aurelia. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919876543210"
+       class="whatsapp-button"
+       target="_blank"
+       rel="noopener noreferrer">
+        WhatsApp Us
+    </a>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
